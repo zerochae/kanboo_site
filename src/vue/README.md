@@ -1,0 +1,110 @@
+- Container * Component
+  & Global(App)
+    = NoAccess
+      - Home
+        * VideoView
+        * HowToUse
+      - Demo
+        * Java
+        * HTML
+      - Sign
+        * Terminal
+      - Community
+        * Free
+        * QnA
+    = Access
+      - Projects
+        * UserInfo
+        * ProjectList
+        * Changes
+      - ProjectDetail
+        - DashBoard
+          * Gantt
+          * Member
+          * Commit
+          * Progress
+          * Issue
+          * FinishDay
+          * Board
+          * Schedule
+          * SearchChart
+        - Scheduler
+          * MonthCalendar
+          * Filter
+          * WeekCalendar
+        - Compiler
+          * SideBar
+          - Java
+            * Editor
+            * Result
+          - HTML
+            * EditAndResult
+        - ProjectBoard
+          * Insert
+          * List
+        - GanttChart
+          * Chart
+          * Detail
+          * Write
+        - Git & Issue
+          * Git
+          * Issue
+        -* Requirements
+        - ERD & View
+          * SideBar
+          - ERD
+            * Table
+            * Write
+          - View
+            * View
+            * Tools
+        - Kanban
+          * Article
+        - Setting
+          * Name
+          * Date
+          * Member
+          * AddMember
+          * Buttons
+      - Admin
+        * UserProject
+        * UserList
+        * QnA
+
+- popup
+  - CreateProject
+  - Chat
+  - Notice
+
+- store
+  * common
+    - global
+    - member
+
+  * NoAccess
+    - home
+    - demo
+    - sign
+    - community
+    - QnA
+
+  * main
+    - projectList
+    - dashBoard
+    - scheduler
+    - htmlCompile
+    - javaCompile
+    - board
+    - gantt
+    - git
+    - issue
+    - requirements
+    - erd
+    - view
+    - kanban
+    - setting
+
+  * Admin
+    - UserProject
+    - UserList
+    - QnA

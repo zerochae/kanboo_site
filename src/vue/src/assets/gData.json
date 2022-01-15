@@ -1,0 +1,129 @@
+{
+  "ganttData": {
+    "projectStart": "2021-01-01",
+    "projectEnd": "2021-02-25",
+    "today": "2021-01-15",
+    "item": [
+      {
+        "itemTitle": "ui design",
+        "itemStart": "2021-01-01",
+        "itemEnd": "2021-01-05",
+        "itemColor": "green"
+      },
+      {
+        "itemTitle": "front",
+        "itemStart": "2021-01-05",
+        "itemEnd": "2021-01-10",
+        "itemColor": "blue"
+      },
+      {
+        "itemTitle": "entity",
+        "itemStart": "2021-01-06",
+        "itemEnd": "2021-01-22",
+        "itemColor": "green"
+      },
+      {
+        "itemTitle": "controller",
+        "itemStart": "2021-01-22",
+        "itemEnd": "2021-02-01",
+        "itemColor": "red"
+      },
+      {
+        "itemTitle": "service",
+        "itemStart": "2021-01-29",
+        "itemEnd": "2021-02-15",
+        "itemColor": "red"
+      },
+      {
+        "itemTitle": "ui design",
+        "itemStart": "2021-01-01",
+        "itemEnd": "2021-01-05",
+        "itemColor": "green"
+      },
+      {
+        "itemTitle": "front",
+        "itemStart": "2021-01-05",
+        "itemEnd": "2021-01-10",
+        "itemColor": "blue"
+      },
+      {
+        "itemTitle": "entity",
+        "itemStart": "2021-01-06",
+        "itemEnd": "2021-01-22",
+        "itemColor": "green"
+      },
+      {
+        "itemTitle": "controller",
+        "itemStart": "2021-01-22",
+        "itemEnd": "2021-02-01",
+        "itemColor": "red"
+      },
+      {
+        "itemTitle": "service",
+        "itemStart": "2021-01-29",
+        "itemEnd": "2021-02-15",
+        "itemColor": "red"
+      },
+      {
+        "itemTitle": "ui design",
+        "itemStart": "2021-01-01",
+        "itemEnd": "2021-01-05",
+        "itemColor": "green"
+      },
+      {
+        "itemTitle": "front",
+        "itemStart": "2021-01-05",
+        "itemEnd": "2021-01-10",
+        "itemColor": "blue"
+      },
+      {
+        "itemTitle": "entity",
+        "itemStart": "2021-01-06",
+        "itemEnd": "2021-01-22",
+        "itemColor": "green"
+      },
+      {
+        "itemTitle": "controller",
+        "itemStart": "2021-01-22",
+        "itemEnd": "2021-02-01",
+        "itemColor": "red"
+      },
+      {
+        "itemTitle": "service",
+        "itemStart": "2021-01-29",
+        "itemEnd": "2021-02-15",
+        "itemColor": "red"
+      },
+      {
+        "itemTitle": "ui design",
+        "itemStart": "2021-01-01",
+        "itemEnd": "2021-01-05",
+        "itemColor": "green"
+      },
+      {
+        "itemTitle": "front",
+        "itemStart": "2021-01-05",
+        "itemEnd": "2021-01-10",
+        "itemColor": "blue"
+      },
+      {
+        "itemTitle": "entity",
+        "itemStart": "2021-01-06",
+        "itemEnd": "2021-01-22",
+        "itemColor": "green"
+      },
+      {
+        "itemTitle": "controller",
+        "itemStart": "2021-01-22",
+        "itemEnd": "2021-02-01",
+        "itemColor": "red"
+      },
+      {
+        "itemTitle": "service",
+        "itemStart": "2021-01-29",
+        "itemEnd": "2021-02-15",
+        "itemColor": "red"
+      }
+    ]
+  }
+}

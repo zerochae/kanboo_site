@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "classification": "directory",
+    "label": "src",
+    "parent_id": "undefined"
+  },
+  {
+    "id": 2,
+    "classification": "file",
+    "label": "Main.java",
+    "parent_id": 1
+  }
+]

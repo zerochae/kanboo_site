@@ -1,0 +1,120 @@
+[
+  {
+    "idx": 1,
+    "name": "Member",
+    "columns": [
+      {
+        "table": "Member",
+        "name": "mem_idx",
+        "type": "number",
+        "constraint": "pk",
+        "references": null
+      },
+      {
+        "table": "Member",
+        "name": "mem_id",
+        "type": "varchar2(100)",
+        "constraint": "pk",
+        "references": null
+      },
+      {
+        "table": "Member",
+        "name": "mem_pw",
+        "type": "varchar2(300)",
+        "constraint": null,
+        "references": null
+      }
+    ],
+    "isModify": false,
+    "borderColor": "",
+    "isClick": false
+  },
+  {
+    "idx": 2,
+    "name": "Board",
+    "columns": [
+      {
+        "table": "Board",
+        "name": "board_idx",
+        "type": "number",
+        "constraint": "pk",
+        "references": null
+      },
+      {
+        "table": "Board",
+        "name": "title",
+        "type": "varchar2(100)",
+        "constraint": null,
+        "references": null
+      },
+      {
+        "table": "Board",
+        "name": "content",
+        "type": "clob",
+        "constraint": null,
+        "references": null
+      },
+      {
+        "table": "Board",
+        "name": "mem_idx",
+        "type": "number",
+        "constraint": "fk",
+        "references": "Member"
+      },
+      {
+        "table": "Board",
+        "name": "mem_id",
+        "type": "varchar2(100)",
+        "constraint": "fk",
+        "references": "Member"
+      }
+    ],
+    "isModify": false,
+    "borderColor": "",
+    "isClick": false
+  },
+  {
+    "idx": 3,
+    "name": "Comment",
+    "columns": [
+      {
+        "table": "Comment",
+        "name": "com_idx",
+        "type": "number",
+        "constraint": "pk",
+        "references": null
+      },
+      {
+        "table": "Comment",
+        "name": "content",
+        "type": "clob",
+        "constraint": null,
+        "references": null
+      },
+      {
+        "table": "Comment",
+        "name": "board_idx",
+        "type": "number",
+        "constraint": "fk",
+        "references": "Board"
+      },
+      {
+        "table": "Comment",
+        "name": "mem_idx",
+        "type": "number",
+        "constraint": "fk",
+        "references": "Member"
+      },
+      {
+        "table": "Comment",
+        "name": "mem_id",
+        "type": "varchar2(100)",
+        "constraint": "fk",
+        "references": "Member"
+      }
+    ],
+    "isModify": false,
+    "borderColor": "",
+    "isClick": false
+  }
+]

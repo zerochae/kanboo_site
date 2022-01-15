@@ -1,0 +1,11 @@
+src/vue/node_modules
+src/vue/package-lock.json
+.idea
+HELP.md
+build
+.gradle
+gradle
+src/test
+src/main/resources/application.yml
+out/production/resources/application.yml
+*.class

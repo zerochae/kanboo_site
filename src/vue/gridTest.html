@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./public/reset.css">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+/* ========================================= */
+
+    .gantt-container {
+      width: 1000px;
+      height: 500px;
+      background: #999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .gantt-wrap {
+      width: 90%;
+      height: 90%;
+      background: #000;
+      color: #fff;
+      display: flex;
+      overflow: scroll;
+    }
+
+    /* -------------------------------- */
+
+    .gantt-head {
+      width: 20%;
+      border-right: 1px solid #fff;
+    }
+
+    .date-head {
+      height: calc((16px * 2) + 10px);
+      border-bottom: 1px solid #fff;
+    }
+
+    .bottom-date {
+      width: fit-content;
+      border-bottom: 1px solid #fff;
+    }
+    
+    .item-head,
+    .date-head {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .gantt-body {
+      width: 80%;
+      overflow-x: scroll;
+    }
+
+    .item-box div,
+    .bottom-date div,
+    .top-date div {
+      display: flex;
+      width: fit-content;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    .top-date {
+      margin: 5px 0;
+    }
+
+    .month-item {
+      text-align: center;
+    }
+
+    .gantt-item {
+      background: green;
+      border: 1px solid #fff;
+    }
+
+    .gantt-item-space {
+      border: 1px solid #fff;
+    }
+    
+    .gantt-item,
+    .day-item,
+    .gantt-item-space {
+      width: 30px;
+      height: 16px;
+      text-align: center;
+    }
+
+    .gantt-item-space,
+    .day-space {
+      text-indent: -9999px;
+      font-size: 1px;
+    }
+
+    li {
+      margin-bottom: 10px;
+      height: 16px;
+    }
+</style>
+</head>
+<body>
+  <div class="gantt-container">
+    <div class="gantt-wrap">
+
+      <ul class="gantt-head">
+        <li class="date-head">date</li>
+        <li class="item-head">ui design</li>
+        <li class="item-head">ui design</li>
+      </ul>
+
+      <ul class="gantt-body">
+        <li class="top-date">
+          <div>
+            <span class="month-item">2021-01</span>
+          </div>
+        </li>
+        <li class="bottom-date">
+          <div>
+            <span class="day-item">01</span>
+            <span class="day-item">02</span>
+            <span class="day-item">03</span>
+            <span class="day-item">04</span>
+            <span class="day-item">05</span>
+            <span class="day-item">06</span>
+            <span class="day-item">07</span>
+            <span class="day-item">08</span>
+            <span class="day-item">09</span>
+            <span class="day-item">10</span>
+            <span class="day-item">11</span>
+            <span class="day-item">12</span>
+            <span class="day-item">13</span>
+            <span class="day-item">14</span>
+            <span class="day-item">15</span>
+            <span class="day-item">16</span>
+            <span class="day-item">17</span>
+            <span class="day-item">18</span>
+            <span class="day-item">19</span>
+            <span class="day-item">20</span>
+            <span class="day-item">21</span>
+            <span class="day-item">22</span>
+            <span class="day-item">23</span>
+            <span class="day-item">24</span>
+            <span class="day-item">25</span>
+            <span class="day-item">26</span>
+            <span class="day-item">27</span>
+            <span class="day-item">28</span>
+            <span class="day-item">29</span>
+            <span class="day-item">30</span>
+            <span class="day-item">31</span>
+            <span class="day-space">1</span>
+          </div>
+        </li>
+        <li class="item-box">
+          <div>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+          </div>
+        </li>
+        <li class="item-box">
+          <div>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item"></span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+            <span class="gantt-item-space">1</span>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+<script>
+const monthItem = document.querySelector(".month-item")
+const i = document.querySelectorAll(".day-item")
+
+  monthItem.style.width = `${i.length * 30}px`
+</script>
+</body>
+</html>

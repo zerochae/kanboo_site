@@ -1,0 +1,66 @@
+{
+  "name": "kanboo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^1.0.5",
+    "@kangc/v-md-editor": "^2.3.12",
+    "@vueup/vue-quill": "^1.0.0-beta.7",
+    "array-to-tree": "^3.3.2",
+    "axios": "^0.24.0",
+    "codemirror-editor-vue3": "^0.2.4",
+    "core-js": "^3.6.5",
+    "install": "^0.13.0",
+    "moment": "^2.29.1",
+    "npm": "^8.3.0",
+    "vue": "^3.0.0",
+    "vue-cal": "^4.2.0",
+    "vue-prism-editor": "^2.0.0-alpha.2",
+    "vue-prismjs": "^1.2.0",
+    "vue-radial-progress": "^0.3.2",
+    "vue-router": "^4.0.12",
+    "vue3-circle-progress": "^1.0.6",
+    "vue3-radial-progress": "^1.0.5",
+    "vue3-router-tree": "^0.2.4",
+    "vue3-smooth-dnd": "0.0.2",
+    "vue3-timepicker": "^1.0.0-beta.2",
+    "vue3-tree": "^0.8.0",
+    "vue3-treeview": "^0.3.5",
+    "vuepress-theme-default-prefers-color-scheme": "^2.0.0",
+    "vuex": "^4.0.2",
+    "webstomp-client": "^1.2.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

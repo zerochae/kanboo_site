@@ -1,0 +1,61 @@
+/* white theme */
+.vuecal__menu, .vuecal__cell-events-count {
+    background-color: rgba(153, 153, 153, 0.4);
+  }
+  
+  /* 제목 바 */  
+  .vuecal__title-bar {background-color:rgba(153, 153, 153, 0.5);}
+  /* 오늘 날짜   */
+  .vuecal__cell--today, .vuecal__cell--current {background-color: rgba(153, 153, 153, 0.2);}
+  /* 선택된 날짜   */
+  .vuecal:not(.vuecal--day-view) .vuecal__cell--selected {background-color: rgba(153, 153, 153, 0.3);}
+  /* 선택된 날짜 테두리 */
+  .vuecal__cell--selected:before {border-color: rgba(153, 153, 153, 0.3);}
+  
+  /* 작은 달력 타이틀 */
+  .vuecal--blue-theme .vuecal__title-bar{
+    background-color : rgba(153, 153, 153, 0.4);
+  }
+  
+  /* 날짜 눌렀을 때 색깔 */
+  .vuecal--rounded-theme.vuecal--blue-theme:not(.vuecal--day-view) .vuecal__cell--selected .vuecal__cell-content{
+    background-color: rgba(153, 153, 153, 0.5);
+  }
+  
+  /* 날짜들 색깔 */
+  .vuecal--rounded-theme.vuecal--blue-theme:not(.vuecal--day-view) .vuecal__cell-content {
+      background-color: rgba(153, 153, 153, 0.2);
+  }
+  
+  /* 선택한 날짜 테두리 */
+  .vuecal--rounded-theme.vuecal--blue-theme:not(.vuecal--day-view) .vuecal__cell--selected .vuecal__cell-content {
+      border-color: #999999;
+  }
+  
+  /* 오늘날짜 색깔 */
+  .vuecal--rounded-theme.vuecal--blue-theme:not(.vuecal--day-view) .vuecal__cell--today .vuecal__cell-content {
+      background-color: #999999;
+      color: #fff;
+      
+  }
+  
+  /* event가 있는 datePicker의 count css */
+  .vuecal--blue-theme .vuecal__cell-events-count{
+    margin-top: 1px;
+    background-color: rgba(153, 153, 153, 0.6);
+    /* count 위치 */
+    left: 95%;
+  }
+  /* 주황 */
+  .vuecal__event.common {background-color: rgba(253, 156, 66, 0.9);border: 1px solid rgb(233, 136, 46);color: #fff;}
+  /* 초록 */
+  .vuecal__event.individual {background-color: rgba(61, 219, 122, 0.9);border: 1px solid rgb(61, 219, 122);color: #fff;}
+  /* 보라 */
+  .vuecal__event.notice {background-color: rgba(195, 62, 212, 0.9);border: 1px solid rgb(195, 62, 212);color: #fff;}
+  /* 빨강 */
+  .vuecal__event.emergency {background-color: rgba(255, 102, 102, 0.9);border: 1px solid rgb(235, 82, 82);color: #fff;}
+  /* 파랑 */
+  .vuecal__event.vacation {background-color: rgba(77, 122, 248, 0.9);border: 1px solid rgb(77, 122, 248);color: #fff;}
+  /* 회색 */
+  .vuecal__event.note {background-color: rgba(87, 87, 87, 0.9);border: 1px solid rgb(87, 87, 87);color: #fff;}
+  
