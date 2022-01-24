@@ -21,7 +21,7 @@
 
 ## 화면(Component) 별 설명
 
-> 담당자 : 안대근 - PL
+> 담당자 : 안대근
 
 ![Compiler](https://user-images.githubusercontent.com/84373490/149461335-c30c8701-8d03-4d40-98a5-3bf6eee35464.jpg)
 
@@ -41,7 +41,7 @@
     3. 테이블 생성 시 json형태로 데이터가 프론트에 저장되며 테이블이 저장된 json을 바탕으로 테이블의 제약조건을 또다른 json에 설정해 준다.
     4. 쿼리 출력 시 테이블json과 제약조건json을 바탕으로 create 쿼리를 먼저 출력 받고 alter를 통해 primary key, foreign key의 제약조건을 추가한 쿼리를 받아 볼 수 있다.
 
-> 담당자 : 윤주원 - TA
+> 담당자 : 윤주원
 
 ![Scheduler](https://user-images.githubusercontent.com/84373490/149461329-100e1417-ba50-48b0-b2d7-bf19db461532.jpg)
 
@@ -87,7 +87,7 @@
      4. GanttChart 
      5. Kanban Item의 API 완료, 구현 완료로 변경될 경우 알람
      
- > 담당자: 임태희 - AA
+ > 담당자: 임태희
 
 ![FreeBoard](https://user-images.githubusercontent.com/84373490/149461321-33b7a78d-ee2b-473a-aa8d-57f2d282d6c9.jpg)
 
@@ -130,7 +130,7 @@
    3. 또한 프로젝트들 중에서 가장 최근에 등록된 프로젝트 관련 이슈와 스케줄을 하단에 가로스크롤로 보여줌
 
    
-> 담당자: 임창균 - DA
+> 담당자: 임창균
 
 
 ![Demand](https://user-images.githubusercontent.com/84373490/149461340-cb288dc0-1920-410f-9c0d-edfef0c0be35.jpg)
@@ -150,7 +150,7 @@
    3. 멤버들을 검색햇 추가하거나 삭제가 가능함
    4. 멤버들의 프로젝트 역할을 확인하고 수정할수 있음
 
-> 담당자: 권영채 - UA
+> 담당자: 권영채
 
 ![How To Use](https://user-images.githubusercontent.com/84373490/149461323-13d39de5-5957-4a26-a47b-12e6540f1066.jpg)
 
